@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$background: #26292e;
+$cyellow: #dab745;
+$cgray: #b2b5b9;
+$cdark: #26292e;
+$softgray: #5c5f65;
+$softgray-hover: #9a9ea5;
+$softdark: #393d42;
+
+body {
+  background: $background;
+  font-family: "Poppins", sans-serif;
+}
+
+.image-shadow {
+  box-shadow: -10px 10px 0px 0px #d1b558;
+}
+
+.border {
+  &-softdark {
+    border-color: $softdark;
+  }
+  &-softgray {
+    border-color: $softgray;
+  }
+  &-cyellow {
+    border-color: $cyellow;
+  }
+  &-cgray {
+    border-color: $cgray !important;
+  }
+  &-cdark {
+    border-color: $cdark;
+  }
+}
+
+.bg {
+  &-softdark {
+    background-color: $softdark;
+  }
+  &-softgray {
+    background-color: $softgray;
+  }
+  &-cyellow {
+    background-color: $cyellow;
+  }
+  &-cgray {
+    background-color: $cgray !important;
+  }
+  &-cdark {
+    background-color: $cdark;
+  }
+}
+
+.text {
+  &-softdark {
+    color: $softdark;
+  }
+  &-softgray {
+    color: $softgray;
+    transition: 150ms;
+    &:hover {
+      transition: 150ms;
+      color: $softgray-hover !important;
+    }
+  }
+  &-cyellow {
+    color: $cyellow;
+  }
+  &-cgray {
+    color: $cgray !important;
+  }
+  &-cdark {
+    color: $cdark;
+  }
+}
