@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex items-center justify-center w-full px-5 py-4 mt-4 text-xs text-cgray">
         This{" "}
         <a
-          href="https://github.com/Roi-boy/roi-portfolio"
+          href="https://github.com/thisisroi/roi-portfolio"
           target="_blank"
           className="px-2 py-1 mx-1 transition duration-150 rounded-md bg-softdark hover:opacity-75"
         >
@@ -17,7 +17,7 @@ const Footer = () => {
         <a
           className="mx-1 text-blue-400 hover:text-blue-400 hover:underline"
           target="_blank"
-          href="https://github.com/Roi-boy"
+          href="https://github.com/thisisroi"
         >
           Roi
         </a>{" "}
