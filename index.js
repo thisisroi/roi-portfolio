@@ -7,7 +7,7 @@ import Skills from "../components/Skills";
 const links = [
   {
     icon: "fab fa-discord",
-    href: "https://discord.gg/zwVSuN4,
+    href: "https://discord.gg/zwVSuN4",
   },
   {
     icon: "fab fa-github",
