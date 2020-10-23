@@ -12,7 +12,7 @@ You can easily have a beautiful and simple design one page portfolio by changing
 
 * After importing the files, install the required npm modules with the command `npm install`.
 
-* After the required modules are installed, open the `index.js` file and make an edit yourself.
+* After the required modules are installed, open the `config.js` file and make an edit yourself.
 
 **Congratulations!** Now your portfolio is ready. Now prepare the project by typing the `next build` command and present it to people by hosting it in a provider.
 
