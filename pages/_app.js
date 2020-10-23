@@ -1,12 +1,11 @@
 import "../styles/index.scss";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+
 function App({ Component, pageProps }) {
   return (
-    <div>
+    <div className="lg:flex lg:items-center lg:justify-center lg:h-screen lg:mx-auto">
       <Navbar />
       <Component {...pageProps} />
-      <Footer />
     </div>
   );
 }

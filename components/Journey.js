@@ -1,54 +1,36 @@
 import FadeIn from "react-fade-in";
+import Skills from "./Skills";
 
 const Journey = (props) => {
   const journeyItems = [
     {
       name: props.experience,
       icon: "grade",
-      desc: "Experience",
     },
     {
       name: props.projects,
       icon: "developer_board",
-      desc: "All projects",
     },
     {
       name: props.job,
       icon: "whatshot",
-      desc: "Current Job",
     },
   ];
   return (
-    <div className="flex flex-wrap max-w-screen-md mx-auto">
-      <div className="px-12 ml-1 lg:px-0 lg:ml-0">
-        <FadeIn delay={150}>
-          <div className="w-full">
-            <h1 className="text-lg font-semibold text-white">My Journey</h1>
-          </div>
-        </FadeIn>
-        <FadeIn delay={250}>
-          <div className="w-full">
-            <div className="grid grid-flow-row col-span-3 row-start-3 gap-5 py-3 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
-              {journeyItems.map((item, i) => (
-                <div key={i} className="flex w-full">
-                  <div className="flex items-center justify-center w-16 h-16 px-5 bg-yellow-500 rounded-lg">
-                    <i className="material-icons text-cdark">{item.icon}</i>
-                  </div>
-                  <div className="flex flex-wrap items-center justify-start w-full px-4">
-                    <div className="w-full">
-                      <h1 className="font-semibold text-white">{item.name}</h1>
-                    </div>
-                    <div className="w-full">
-                      <p className="-mt-4 text-xs font-medium text-yellow-500">
-                        {item.desc}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
+    <div className="container max-w-screen-lg mx-auto">
+      <div>
+        <div className="flex items-center justify-center md:flex-col">
+        {journeyItems.map((item, i) => (
+          <div key={i} className="flex items-center px-3 py-4 space-x-6 rounded-md md:py-0 md:w-full md:pb-6">
+            <div className="flex items-center md:w-1/6">
+              <span className="flex items-center justify-center w-10 h-10 p-2 text-blue-400 bg-blue-400 bg-opacity-25 rounded-md material-icons">{item.icon}</span>
+            </div>
+            <div className="w-full">
+              <h1 className="text-sm font-medium text-gray-light">{item.name}</h1>
             </div>
           </div>
-        </FadeIn>
+        ))}
+        </div>
       </div>
     </div>
   );

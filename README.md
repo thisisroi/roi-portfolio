@@ -3,10 +3,8 @@ You can easily have a beautiful and simple design one page portfolio by changing
 
 *Project is developed with [Next.js](https://nextjs.org/) and has an **MIT License**.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thisisroi/roi-portfolio&utm_source=github&utm_medium=roi-portfolio&utm_campaign=thisisroi)
-
 # Screenshots
-![Homepage](https://i.imgur.com/2Wvbbs8.png)
+![Homepage](https://i.imgur.com/1wSYCxS.png)
 
 # Setup
 
@@ -14,7 +12,7 @@ You can easily have a beautiful and simple design one page portfolio by changing
 
 * After importing the files, install the required npm modules with the command `npm install`.
 
-* After the required modules are installed, open the `pages/index.js` file and make an edit yourself.
+* After the required modules are installed, open the `index.js` file and make an edit yourself.
 
 **Congratulations!** Now your portfolio is ready. Now prepare the project by typing the `next build` command and present it to people by hosting it in a provider.
 
@@ -24,3 +22,19 @@ If you have any questions or errors, you can join the discord server and ask. If
 
 - [Discord Server](https://discord.gg/zwVSuN4)
 - [Website](https://roilife.xyz)(Coming Soon)
+
+--- 
+
+# Changelog 
+## ✨ Roi portfolio [v1.2.0](https://github.com/thisisroi/roi-portfolio)
+### Added
+- New config.js file added.
+- Skill bars have been added.
+- Projects section was added.
+- Project status tags have been added for the projects section. (New, Coming Soon, Closed etc.)
+### Changed
+- Website main colors has been changed.
+- Website design has been redesigned.
+- Some invisible bugs have been fixed.
+- The design has been made responsive for every device.
+- Footer section removed.
