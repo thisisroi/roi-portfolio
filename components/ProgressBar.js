@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 
-const ProgressBar = (props) => {
-  const { background, completed, title } = props;
+const ProgressBar = ({ background, completed, title }) => {
   const [loading, setLoading] = useState(1);
+
   useEffect(() => {
     setLoading(completed);
   }, []);
+
   return (
     <div className="container max-w-screen-lg mx-auto wrapper">
       <div className="flex items-center">

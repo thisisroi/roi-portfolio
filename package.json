@@ -14,5 +14,10 @@
     "react-fade-in": "^1.1.1",
     "react-ripples": "^2.2.1",
     "sass": "^1.26.12"
+  },
+  "devDependencies": {
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.9.6"
   }
 }
