@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ProgressBar from "./ProgressBar";
+import ProgressBar from './ProgressBar';
 
-const Skills = ({ skills }) => {
+function Skills({skills}) {
   return (
     <div className="w-full md:w-2/6">
       <div className="container max-w-screen-lg mx-auto">
@@ -10,13 +10,12 @@ const Skills = ({ skills }) => {
           <div className="w-full">
             {
               skills.map((skill, i) => (
-                <div key={ i }>
-                  <ProgressBar
-                    title={ skill.name }
-                    background={ skill.color }
-                    completed={ skill.percent }
-                  />
-                </div>
+                <ProgressBar
+                  key={i}
+                  title={skill.name}
+                  background={skill.color}
+                  completed={skill.percent}
+                />
               ))
             }
           </div>
@@ -24,5 +23,6 @@ const Skills = ({ skills }) => {
       </div>
     </div>
   );
-};
+}
+
 export default Skills;

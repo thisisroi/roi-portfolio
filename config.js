@@ -6,7 +6,7 @@ export default {
     job: "UI Designer / Front-end Developer",
     description:
       "Hello, I am Batuhan Kılıç, a self-taught Front-end Developer with more than three years of work experience. Now I live in Baku, Azerbaijan. I am working own on different projects now. I enjoy presenting my projects to people. It makes me happier when people give good feedback about my work.",
-    social_links: [
+    socialLinks: [
       {
         name: "Github",
         icon: "fab fa-github",
@@ -35,7 +35,7 @@ export default {
   },
   journey: {
     experience: "3 Years Experience",
-    total_projects: 10,
+    totalProjects: 10,
     work: "Full-time",
   },
   skills: [
@@ -76,7 +76,7 @@ export default {
     },
   ],
   projects: [
-    // status list: NEW - 1, Coming Soon - 2, Active - 3, Mainteance - 4, It's Over - 5, Closed - 6
+    // status list: NEW - 1, Coming Soon - 2, Active - 3, Maintenance - 4, It's Over - 5, Closed - 6
     {
       name: "roi-portfolio",
       description: "An open source portfolio site.",

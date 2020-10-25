@@ -1,8 +1,8 @@
 import React from 'react';
-import Head from "next/head";
+import Head from 'next/head';
 
 import '../styles/index.css'
-import "../styles/index.scss";
+import '../styles/index.scss';
 
 function App({Component, pageProps}) {
   return (
