@@ -8,6 +8,10 @@ export default function Layout({ children }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
+        <link 
+          href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" 
+          rel="stylesheet"
+        />
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
           rel="stylesheet"
