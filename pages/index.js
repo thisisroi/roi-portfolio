@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Portfolio from '../components/Portfolio';
 import PortfolioImage from '../components/PortfolioImage';
 import SocialMedia from '../components/SocialMedia';

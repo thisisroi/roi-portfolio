@@ -1,3 +1,4 @@
+import React from 'react';
 import Ripples from "react-ripples";
 
 export default function Project({ project }) {

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function PortfolioImage({ image }) {
   return(
     <div className="flex w-full md:w-1/5">

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import PortfolioName from './PortfolioName';
 import PortfolioJob from './PortfolioJob';
 import PortfolioBio from './PortfolioBio';

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function PortfolioName({ name }) {
   return (
     <div className="w-full">

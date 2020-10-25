@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function JourneyItem({ item }) {
   return (
     <div className="flex items-center px-3 py-4 space-x-6 rounded-md md:py-0 md:w-full md:pb-6">

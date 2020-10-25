@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function PortfolioBio({ description }) {
   return (
     <div className="w-full">

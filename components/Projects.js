@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Project from './Project';
 
 const Projects = ({ projects }) => {

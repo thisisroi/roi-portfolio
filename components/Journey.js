@@ -1,3 +1,5 @@
+import React from 'react';
+
 import JourneyItem from './JourneyItem';
 
 const Journey = ({ experience, projects, job }) => {

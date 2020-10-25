@@ -1,3 +1,5 @@
+import React from 'react';
+
 import SocialMediaLink from './SocialMediaLink'
 
 export default function SocialMedia({ social_links }) {
