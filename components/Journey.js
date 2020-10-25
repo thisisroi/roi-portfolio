@@ -1,6 +1,8 @@
+import React from 'react';
+
 import JourneyItem from './JourneyItem';
 
-const Journey = ({ experience, projects, job }) => {
+const Journey = ({experience, projects, job}) => {
   const journeyItems = [
     {
       name: experience,
@@ -16,14 +18,14 @@ const Journey = ({ experience, projects, job }) => {
     },
   ];
 
-  return(
+  return (
     <div className="w-full md:w-48">
       <div className="container max-w-screen-lg mx-auto">
         <div>
           <div className="flex items-center justify-center md:flex-col">
             {
               journeyItems.map((item, i) => (
-                <JourneyItem key={ i } item={ item } />
+                <JourneyItem key={i} item={item}/>
               ))
             }
           </div>
