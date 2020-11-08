@@ -1,7 +1,7 @@
 export default {
   about: {
     image:
-      "https://cdn.discordapp.com/avatars/726953781903884388/4416bfee83b354e95b5964bc09c0f619.png?size=2048",
+      "https://cdn.discordapp.com/avatars/726953781903884388/50e1f6036172e0672cfd62feabc9bc0c.png?size=2048",
     name: "Batuhan Kılıç",
     job: "UI Designer / Front-end Developer",
     description:
@@ -80,7 +80,7 @@ export default {
     {
       name: "roi-portfolio",
       description: "An open source portfolio site.",
-      status: 1,
+      status: 3,
       to: "https://github.com/thisisroi/roi-portfolio",
     },
   ],
