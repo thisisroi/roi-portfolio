@@ -83,5 +83,11 @@ export default {
       status: 3,
       to: "https://github.com/thisisroi/roi-portfolio",
     },
+    {
+      name: "az-covid19.info",
+      description: "Website showing coronavirus statistics of Azerbaijan. (But in Azerbaijan language)",
+      status: 1,
+      to: "https://az-covid19-info.vercel.app/",
+    },    
   ],
 };
