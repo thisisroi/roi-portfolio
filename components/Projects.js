@@ -10,7 +10,7 @@ const Projects = ({projects}) => {
           <div
             className="grid w-full grid-flow-row col-span-1 row-start-2 gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
             {
-              projects.map((project, i) => (
+              projects.sort((a, b) => a.status - b.stats).map((project, i) => (
                 <Project key={i} project={project}/>
               ))
             }
