@@ -2,10 +2,10 @@ export default {
   about: {
     image:
       "https://cdn.discordapp.com/avatars/726953781903884388/50e1f6036172e0672cfd62feabc9bc0c.png?size=2048",
-    name: "Batuhan Kılıç",
+    name: "Amil Alekberov",
     job: "UI Designer / Front-end Developer",
     description:
-      "Hello, I am Batuhan Kılıç, a self-taught Front-end Developer with more than three years of work experience. Now I live in Baku, Azerbaijan. I am working own on different projects now. I enjoy presenting my projects to people. It makes me happier when people give good feedback about my work.",
+      "Hello, I am Amil Alekberov, a self-taught Front-end Developer with more than three years of work experience. Now I live in Baku, Azerbaijan. I am working own on different projects now. I enjoy presenting my projects to people. It makes me happier when people give good feedback about my work.",
     socialLinks: [
       {
         name: "Github",
@@ -86,7 +86,7 @@ export default {
     {
       name: "az-covid19.info",
       description: "Website showing coronavirus statistics of Azerbaijan. (But in Azerbaijan language)",
-      status: 1,
+      status: 3,
       to: "https://az-covid19-info.vercel.app/",
     },    
   ],
