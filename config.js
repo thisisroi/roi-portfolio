@@ -1,7 +1,7 @@
 export default {
   about: {
     image:
-      "https://cdn.discordapp.com/avatars/726953781903884388/50e1f6036172e0672cfd62feabc9bc0c.png?size=2048",
+      "https://cdn.discordapp.com/avatars/726953781903884388/8b007da4226e040487bb1e801bce5626.png?size=2048",
     name: "Amil Alekberov",
     job: "UI Designer / Front-end Developer",
     description:
